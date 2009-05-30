@@ -1,4 +1,4 @@
-class Admin::MovieController < Admin::AbstractModelController
+class Admin::MovieController < Admin::ResourceController
   model_class Movie
   
   
